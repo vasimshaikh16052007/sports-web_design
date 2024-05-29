@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+  <!-- <style type="text/css">
+    /*slider css*/
+    .carousel-indicators [data-bs-target]{
+  height: 8px;   /* carousel indicators css */
+  width: 8px;
+  border-radius: 100%;
+  }
+
+    /* Upcoming css*/
+  .upcoming h5{
+      font-size: 12px;
+        font-weight: 600;
+        text-align: center;
+    }
+    .upcoming h4{
+      font-size: 20px;
+      font-weight: 600;
+      margin-top: -16px;
+      position: relative;
+    }
+    .upcoming p{
+      font-size: 14px;
+    }
+              /*  line css  */
+    .upcoming h4:after{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 72px;
+    background-color: limegreen;
+    bottom: -21px;
+    left: 19px;
+    }
+    .upcoming i{
+      background-color: green;
+    }
+    .upcoming{
+      margin-top: 30px;
+    }
+    .upcoming .card{
+      margin: 10px;
+    }
+      
+      /*aboutgames_wraper*/
+    .aboutgames_wraper p{
+      font-size: 13px;
+    }
+    .aboutgames_wraper h2{
+      margin-top: 100px;
+      font-size: 22px;
+      position: relative;
+    }
+    .aboutgames_wraper h2:after{
+      content: "";
+    position: absolute;
+    height: 2px;
+    width: 72px;
+    background-color: limegreen;
+    bottom: -21px;
+    left: 19px;
+    }
+    .aboutgames_wraper{
+      margin-top: 34px;
+      background-color: rgba(0, 0, 0, 0.1);
+    }
+    .aboutgames_wraper .btn-success{
+      background-color: limegreen;
+      border-radius: 20px;
+      width: 120px;
+      padding: 5px 0px ; 
+    }
+
+    .gallery_weraper {
+      text-align: center;
+    }
+
+    .gallery_weraper h6{
+      background-color: #1ab635;
+    }
+
+    .gallery_weraper h2{
+      margin-bottom: 0px;
+      font-size: 22px;
+      font-weight: 600;
+      position: relative;
+    }
+
+    .gallery_weraper h2:before{
+      content: "";
+      position: absolute;
+      height: 2px;
+      width: 42px;
+      background-color: #1ab635;
+      bottom: -14px;
+      left: 417px;
+    }
+
+    .gallery_weraper h2:after{
+       content: "";
+      position: absolute;
+      height: 2px;
+      width: 42px;
+      background-color: #1ab635;
+      bottom: -14px;
+      right: 417px;
+    }
+
+    .gallery_weraper p{
+      font-size: 12px;
+      margin: 10px 0;
+    }
+
+    .gallery_weraper .btn-success{
+      border-radius: 20px;
+      background-color: limegreen;
+      width: 120px;
+      padding: 6px 0px;
+      margin-top: 30px;
+    }
+
+    .our_wraper{
+      margin-top: 30px;
+    }
+
+    .our_wraper .card{
+      margin: 10px;
+    }
+    .our_wraper h5{
+      font-size: 16px;
+      text-align: center;
+      margin-bottom: -6px;
+      font-weight: 600;
+    }
+
+    .event_wraper{
+      background-color: rgba(0, 0, 0, 0.2);
+    }
+  </style> -->
+
+</head>
+<body>
+<!--<div class="menubar_wraper">
+	<nav class="navbar navbar-expand-lg navbar-light bg-secondary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html"><img src="images/top_logo.png" class="bg-dark"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">about us</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" >Disabled</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+  </nav>
+</div>-->
+
+        <!------------------slider part----------------------->
+<div class="slider_wraper">
+		<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/slider_1.jpg" class="d-block w-100" alt="image">
+      <div class="carousel-caption d-none d-md-block">
+        <h3>RA THEMS IN LOVE WITH <br/> BASKETBALL</h3>
+        <p>Some representative placeholder content for the first slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="images/slider_2.jpg" class="d-block w-100" alt="image">
+      <div class="carousel-caption d-none d-md-block">
+       <h3>RA THEMS IN LOVE WITH <br/> BASKETBALL</h3>
+        <p>Some representative placeholder content for the second slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="images/slider_3.jpg" class="d-block w-100" alt="image">
+      <div class="carousel-caption d-none d-md-block">
+        <h3>RA THEMS IN LOVE WITH <br/> BASKETBALL</h3>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+  </div>
+</div>
+      <!-------------upcoming games part----------------->
+<div class="upcoming">
+		<div class="container">
+			<div class="row">
+	<div class="card-group">
+	<div class="card">
+    <div class="card-body">
+      <h4 class="card-title">UPCOMING GAMES</h4>
+      <i class="fa-solid fa-futbol"></i>
+      <p class="card-text">Poki has the best free online games selection and offers the most fun experience to play alone or with friends. We offer instant play to all our games without downloads, login, popups or other distractions.</p>
+      
+    </div>
+  </div>
+  <div class="card">
+    <img src="images/gm1.png" class="card-img-top" alt="image">
+    <div class="card-body">
+      <h5 class="card-title">SOCCER/FOOTBALL</h5>
+    </div>
+  </div>
+  <div class="card">
+    <img src="images/gm2.png" class="card-img-top" alt="image">
+    <div class="card-body">
+      <h5 class="card-title">BASKETBALL</h5>
+    </div>
+  </div>
+  <div class="card">
+    <img src="images/gm3.png" class="card-img-top" alt="image">
+    <div class="card-body">
+      <h5 class="card-title">BASEBALL & SOFTBALL</h5>
+    </div>
+  </div>
+  </div>
+  </div>
+  </div>
+</div>
+      <!---------------------about games part--------------->
+
+  <div class="aboutgames_wraper">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-6">
+          <div class="box border border-light">
+            <img src="images/man.png" class="img-fluid" style="width: 100%;">
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6">
+          <div class="box border border-light">
+            <h2>ABOUT GAMES</h2>
+            <i class="fa-solid fa-futbol"></i>
+            <p>Games are sometimes played purely for enjoyment, sometimes for achievement or reward as well. They can be played alone, in teams, or online; by amateurs or by professionals. The players may have an audience of non-players, such as when people are entertained by watching a chess championship.</p>
+            
+            <p><i class="fa-solid fa-thumbs-up me-2 text-info"></i>Games can help to improve memory, attention, and problem-solving skills.</p>
+            <p><i class="fa-solid fa-thumbs-up me-2 text-info"></i>Games can provide a fun and relaxing way to de-stress.</p>
+            <p><i class="fa-solid fa-thumbs-up me-2 text-info"></i>Games can provide a way to connect with others and make new friends.</p>
+            <p><i class="fa-solid fa-thumbs-up me-2 text-info"></i>
+            Some games can provide a way to get physical activity.</p>
+            <p><i class="fa-solid fa-thumbs-up me-2 text-info"></i>
+            Games can be a powerful tool for learning.</p>
+            <a href="#" class="btn btn-success mt-1">About us</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!---------------------our gallery part-------------------->
+
+  <div class="gallery_weraper ">
+    <div class="container mt-5">
+      <h2>OUR GALLERY</h2>
+      <h6 class="fa-solid fa-futbol"></h6>
+      <p>We have a great from a selection of sports including Horse<br> Racing, Motor Sports, Football, Cricket & Golf.</p>
+      <div class="row">
+        <div class="col-lg-3 col-sm-3">
+          <div class="block">
+            <img src="images/pj1.png" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-3">
+          <div class="block">
+            <img src="images/pj2.png" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-3">
+          <div class="block">
+            <img src="images/pj3.png" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-3">
+          <div class="block">
+            <img src="images/pj4.png" class="img-fluid">
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 col-sm-6">
+          <div class="block">
+            <img src="images/pj5.png" class="img-fluid mt-2">
+          </div>
+        </div>
+        <div class="col-lg-6 col-sm-6">
+          <div class="block">
+            <img src="images/pj6.png" class="img-fluid mt-2">
+          </div>
+        </div>
+      </div>
+        <a href="#" class="btn btn-success">VIEW ALL</a>
+    </div>
+  </div>
+
+    <!------------------our sport part----------------->
+
+<div class="our_wraper">
+  <div class="container">
+    <h2>OUR SPORT <br><i class="fa-regular fa-futbol"></i></h2>
+    <p>In the fast-paced world of sports, enthusiasts gather to embrace the spirit of athleticism and competition. <br>From the thrill of fast kicks in soccer to the precise swings of golf, sports offer a universal language<br> that transcends borders and cultures. </p>
+    <div class="row">
+      <div class="card-group">
+        <div class="card">
+          <img src="images/sp1.png" class="card-img-top" alt="image">
+            <div class="card-body">
+              <h5 class="card-title">SOCCER/FOOTBALL</h5>
+            </div>
+        </div>
+        <div class="card">
+         <img src="images/sp2.png" class="card-img-top" alt="image">
+           <div class="card-body">
+              <h5 class="card-title">CRICKET</h5>
+            </div>
+        </div>
+        <div class="card">
+         <img src="images/sp3.png" class="card-img-top" alt="image">
+          <div class="card-body">
+            <h5 class="card-title">BADMINTON</h5>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/sp4.png" class="card-img-top" alt="image">
+          <div class="card-body">
+            <h5 class="card-title">FIELD HOCKEY</h5>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+       <div class="card-group">
+        <div class="card">
+          <img src="images/sp5.png" class="card-img-top" alt="image">
+            <div class="card-body">
+              <h5 class="card-title">WEIGHTLIFTING</h5>
+            </div>
+        </div>
+        <div class="card">
+          <img src="images/sp6.png" class="card-img-top img-fluid" alt="image">
+            <div class="card-body">
+              <h5 class="card-title">BASEBALL & SOFTBALL</h5>
+            </div>
+        </div>
+        <div class="card">
+          <img src="images/sp7.png" class="card-img-top" alt="image">
+           <div class="card-body">
+             <h5 class="card-title">BEACH VOLLEYBALL</h5>
+            </div>
+        </div>
+      <div class="card">
+        <img src="images/sp8.png" class="card-img-top" alt="image">
+          <div class="card-body">
+           <h5 class="card-title">BASKETBALL</h5>
+          </div>
+      </div>
+  </div>
+  <a href="#" class="btn btn-success">VIEW ALL</a>
+  </div>
+  </div>
+</div>
+</div>
+
+<!------------------------Event part--------------------->
+<div class="event_wraper">
+  <h1 >UPCOMING EVENT<br> <i class="fa-solid fa-futbol"></i></h1>
+  <p>The players may have an audience of non-players, such as when<br> people are entertained by watching a chess championship.</p>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-sm-12">
+          <div class="win">
+            <h6>Game Report</h6>
+            <h2>GREAT WIN IN FINALS</h2>
+            <p>Mon, Oct 21, Youth League</p>
+            <div class="d-flex">
+                <div class="svg">
+                  <img src="images/mt1.png">
+                  <h3>LEYON</h3>
+                </div>
+              <div class="v">
+                <h5>VS</h5>
+              </div>
+                <div class="svg">
+                  <img src="images/mt2.png">
+                  <h3>PSG</h3>
+                </div>
+            </div>   
+          </div>
+          <button type="button" class="btn btn-success ">BUY TICKET</button>
+        </div>
+        <div class="col-lg-6 col-sm-12">
+          <div class="win">
+            <h6>Game Report</h6>
+            <h2>GREAT WIN IN FINALS</h2>
+            <p>Mon, Oct 21, Youth League</p>
+            <div class="d-flex">
+                <div class="svg">
+                  <img src="images/mt3.png">
+                  <h3>LEYON</h3>
+                </div>
+              <div class="v">
+                <h5>VS</h5>
+              </div>
+                <div class="svg">
+                  <img src="images/mt4.png">
+                  <h3>PSG</h3>
+                </div>
+            </div>
+          </div>
+          <button type="button" class="btn btn-success ">BUY TICKET</button>
+        </div>
+      </div>
+    </div>
+</div>
+	<script type="text/javascript" src="js/all.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

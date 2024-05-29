@@ -1,0 +1,265 @@
+ /*slider css*/
+    .carousel-indicators [data-bs-target]{
+	height: 8px;   /* carousel indicators css */
+	width: 8px;
+	border-radius: 100%;
+	}
+
+    /* Upcoming css*/
+	.upcoming h5{
+			font-size: 12px;
+    		font-weight: 600;
+    		text-align: center;
+		}
+		.upcoming h4{
+			font-size: 20px;
+			font-weight: 600;
+      margin-top: -16px;
+      position: relative;
+		}
+		.upcoming p{
+			font-size: 14px;
+		}
+              /*	line css  */
+		.upcoming h4:after{
+		content: "";
+    position: absolute;
+    height: 2px;
+    width: 72px;
+    background-color: limegreen;
+    bottom: -21px;
+    left: 19px;
+		}
+    .upcoming i{
+      background-color: green;
+    }
+		.upcoming{
+			margin-top: 30px;
+		}
+		.upcoming .card{
+			margin: 10px;
+		}
+      
+      /*aboutgames_wraper*/
+    .aboutgames_wraper p{
+      font-size: 13px;
+    }
+    .aboutgames_wraper h2{
+      margin-top: 100px;
+      font-size: 22px;
+      position: relative;
+    }
+    .aboutgames_wraper h2:after{
+      content: "";
+    position: absolute;
+    height: 2px;
+    width: 72px;
+    background-color: limegreen;
+    bottom: -21px;
+    left: 19px;
+    }
+    .aboutgames_wraper{
+      margin-top: 34px;
+      background-color: rgba(0, 0, 0, 0.1);
+    }
+    .aboutgames_wraper .btn-success{
+      background-color: limegreen;
+      border-radius: 20px;
+      width: 120px;
+      padding: 5px 0px ; 
+    }
+
+    .gallery_weraper {
+      text-align: center;
+    }
+
+    .gallery_weraper h6{
+      background-color: #1ab635;
+    }
+
+    .gallery_weraper h2{
+      margin-bottom: 0px;
+      font-size: 22px;
+      font-weight: 600;
+      position: relative;
+    }
+
+    .gallery_weraper h2:before{
+      content: "";
+      position: absolute;
+      height: 2px;
+      width: 42px;
+      background-color: #1ab635;
+      bottom: -14px;
+      left: 506px;
+    }
+
+    .gallery_weraper h2:after{
+       content: "";
+      position: absolute;
+      height: 2px;
+      width: 42px;
+      background-color: #1ab635;
+      bottom: -14px;
+      right: 506px;
+    }
+
+    .gallery_weraper p{
+      font-size: 12px;
+      margin-bottom: 30px;
+    }
+
+    .gallery_weraper .btn-success{
+      border-radius: 20px;
+      background-color: limegreen;
+      width: 120px;
+      padding: 6px 0px;
+      margin-top: 30px;
+    }
+
+    .our_wraper{
+      margin-top: 60px;
+    }
+
+    .our_wraper h2{
+        text-align: center;
+        font-size: 22PX;
+        font-weight: 600;
+        position: relative;
+    }
+
+    .our_wraper h2:before{
+      content: "";
+      position: absolute;
+      height: 2px;
+      width: 45px;
+      background-color: limegreen;
+      margin: ;
+      bottom: 12px;
+      left: 500px;
+    }
+
+    .our_wraper h2:after{
+      content: "";
+      position: absolute;
+      height: 2px;
+      width: 45px;
+      background-color: limegreen;
+      margin: ;
+      bottom: 12px;
+      right: 500px;
+    }
+
+    .our_wraper p{
+      text-align: center;
+    }
+
+    .our_wraper .card{
+      margin: 10px;
+    }
+    .our_wraper h5{
+      font-size: 16px;
+      text-align: center;
+      margin-bottom: -6px;
+      font-weight: 600;
+    }
+
+    .our_wraper .btn-success{
+      border-radius: 20px;
+      background-color: limegreen;
+      width: 150px;
+      padding: 6px 0px;
+      margin: 30px 478px;
+    }
+
+    .event_wraper{
+      background-color: rgba(0, 0, 0, 0.1);
+      padding: 50px 0px;
+    }
+
+    .event_wraper .win{
+      background-color: white;
+      padding: 26px 30px 46px;
+    }
+
+    .event_wraper h1{
+      text-align: center;
+      font-size: 22px;
+      position: relative;
+    }
+
+    .event_wraper h1:before{
+      content: "";
+      position: absolute;
+      height: 2px;
+      width: 40px;
+      background-color: limegreen;
+      margin:;
+      bottom: 12px;
+      left: 622px;
+    }
+
+    .event_wraper h1:after{
+      content: "";
+      position: absolute;
+      height: 2px;
+      width: 40px;
+      background-color: limegreen;
+      margin:;
+      bottom: 12px;
+      right: 622px;
+    }
+
+    .event_wraper p{
+      text-align: center;
+      font-size: 14px;
+    }
+
+    .event_wraper h2{
+      text-align: center;
+      font-size: 22px;
+    }
+
+    .event_wraper h6{
+      text-align: center;
+    }
+
+    .event_wraper h5{
+      border: 1px solid yellow;
+      font-size: 14px;
+      font-weight: 600;
+      padding: 6px;
+      background-color: yellow;
+      border-radius: 50%;
+      margin: 50px 136px;
+      position: relative;
+    }
+
+    .event_wraper h5:before{
+      content: "";
+      position: absolute;
+      height: 2px;
+      width: 60px;
+      background-color: gray;
+      margin:;
+      bottom: 14px;
+      right: 60px;
+    }
+
+    .event_wraper h5:after{
+      content: "";
+      position: absolute;
+      height: 2px;
+      width: 60px;
+      background-color: gray;
+      margin:;
+      bottom: 14px;
+      left: 60px;
+    }
+
+    .event_wraper .btn{
+      border-radius: 28px;
+      padding: 10px 30px;
+      margin: -28px 206px 0px;
+      font-size: 14px;
+    }
